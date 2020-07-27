@@ -1,0 +1,152 @@
+Working with Form & it's items:
+===========================
+1.form:
+-----------
+	->It is a container to design rest of items
+	->Through form only we can send all items to a desired location(address->action)
+
+syntax:
+	<form   name=""   action=""  method="Get/Post">
+
+
+	</form>
+
+1.name	=>  Name of form
+2.action	=> Here we have to specify address(URL) that accepts our form data
+	Ex:
+		www.amazon.in/reg
+
+3.method=> Type of request i.e get/post
+
+
+get vs post:
+=========
+		Get			Post
+
+1.Get request data is visible in URL		1.Post request data is encrypted  in URL	
+
+2.Get request is very fast			2.Post request is very slow
+
+3.Get request is not secured			3.Post request is highly secured	
+
+4.Get request send limited data to server	4.Post request send unlimited data to server
+
+5.Get is default method			5.Post is not default method & it should be configured
+
+	<form>				<form	method="post">
+
+	</form>				</form>
+
+6.Reading data from server			6.Sending data to server
+		
+7.Get is best for searching data		7.Post is best for securing data
+
+
+
+
+2.Label:
+=======
+->It is used to perform "labeling"
+syntax:
+	<label>
+		Lable	Text
+	</label>
+Ex:
+	<label>
+		Your Name
+	</label>
+3.Input List:		
+==========
+syntax:
+			<input	type="Type Of Item">
+1.Text Filed		<input	type="text">
+2.Password Filed		<input	type="password">
+3.Number Filed		<input	type="number">
+4.Email Filed		<input	type="email">
+5.Date Filed		<input	type="date">
+6.Radio Button		<input	type="radio">
+7.Check Box		<input	type="checkbox">
+8.File Chooser		<input	type="file">
+9.Hidden Text Filed		<input	type="hidden">
+10.Buttons
+	1.submit		<input	type="submit"  value="TextOnButton">
+	2.image		<input	type="image"  src=""   height=""  width="">
+	3.reset		<input	type="reset"  value="TextOnButton">
+	4.button		<input	type="button"  value="TextOnButton">
+			Or
+			<button>TextOnButton</button>
+
+
+
+4.Other Items:
+============
+1.Drop down box		<select> & <option>
+2.Text Area		<textarea>
+
+
+id attribute:
+==========
+	Using this attribute we can access element uniquly in document for manipulation
+	
+syntax:
+	<element		id="Id Name">
+Ex:
+	<p	id="p1">		</p>
+	<p	id="p2">		</p>
+	<input	type="text"	id="id1">
+
+name attribute:
+=============
+	Using this attribute we can send form item data to action(URL)
+	nameless item data cannot be submitted to server(It shoud be unique)
+	name attribute is used for only input,select & textarea
+syntax:
+	<input	type="TYPE"	name="NameOfItem">	
+
+readonly:
+========
+	Using this attribute we can enable readonly property
+syntax:
+	<input	type="TYPE"	readonly>
+
+placeholder:
+==========
+	Using this attribute we can enable watermark text
+	This is applicable for textfileds only
+syntax:
+	<input	type="TYPE"	placeholder="WaterMarkText">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
