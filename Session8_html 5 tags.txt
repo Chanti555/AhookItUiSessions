@@ -1,0 +1,135 @@
+Html5 Index:
+++++++++++
+
+ input items:
+===========
+1.Email Field	:	<input	type="email">
+2.URL field	:	<input	type="url">
+3.Color Picker	:	<input	type="color">
+4.Number Field	:	<input	type="number" min="1" max="10">
+5.Time Field	:	<input	type="time">
+6.Week Fiedl	:	<input	type="week">
+7.Data & Time	:	<input	type="datetime-local">
+8.Month Filed	:	<input	type="month">
+9.Search field	:	<input	type="search">
+10.Phone filed	:	<input	type="tel">
+
+audio & video controls:
+====================
+Ex1:
+<audio controls="controls" src="one.mp3">
+</audio>
+
+Ex2:
+<video width="300" height="200" controls>
+    <source src="one.mp4" type="video/mp4">
+</video>
+
+
+Graphics Related Tags:
+===================
+1.<canvas>
+2.<svg>
+
+Text Related Tags:
+===============
+<header>,<footer>
+<figure>,<figcaption>	: Defines self contained content
+<summary>,<details>	: Defines a visible heading for a <details> element
+<nav>			: Defines navigation links
+<main>			: Defines the main content of a document
+
+<article>			: Defines an article in a document
+<section>			: Defines a section in a document
+<asides>			: Defines frequently presented as sidebars or call-out boxes.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS:	(Casceding Style Sheet)
+===
+Html	=>Used to design static web pages (B &W)
+CSS	=>Used to apply styles to html pages like
+		1.Text colors
+		2.Background colors
+		3.Borders
+		4.Margins
+		5.Padding
+		6.Fonts
+		.....
+
+->Basic program which demostrates diff b/w html & css
+->Types of CSS:
+	We have totally 3 types of CSS
+	1.Inline CSS	(Embedded)
+	2.Internal CSS
+	3.External CSS
+
+1.Inline CSS:
+==========
+Here we declare styles within tag itself & applied to inner html.
+
+syntax:
+
+<element		style="property1:value;.......">
+	Inner Html
+</element>
+
+(+)Inline css can be used to delcare styles to single tag & that to only once
+
+(-)No style reusability
+
+2.Internal CSS:
+=============
+Here we declare all css styles within <style> tag inside <head> tag.
+These styles are applied to <body> elements.
+
+syntax:
+<html>
+<head>
+	<style>
+		element1
+		{
+			property1:value;
+			....
+		}
+		...
+	</style>
+</head>
+<body>
+	<element1>
+		Inner Html
+	</element1>
+	<element2>
+		Inner Html
+	</element2>
+</body>
+</html>
+
+
+(+)Have style reusability
+(-)Css code& Html code combined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
