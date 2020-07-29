@@ -1,0 +1,78 @@
+Java Full Stack Developer:
+++++++++++++++++++++++
+1.Front End tech:
+		UI Technologies
+2.Back End tech:
+		Database with SQL or NoSQL
+		DB connectivity	:Jdbc/Hobernate
+		Server Side logic	:Servlets,Jsp/Spring Boot
+		Webservices	:Restful
+3.Tools:
+		Maven,Git,Junit,Postman,...
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Website:
+	http://ashokit.in/
+1.Static Web pages	
+2.Dynamic web pages
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+UI Technologies:
+==============
+Html		(Hypertextmarkup language)	=>Used to develop Static Web Pages
+Css		(Casceding Stylesheet)	=>Used to apply styles to Web Pages
+Js		(JavaScript)		=>Used to develop form validation at browser level
+Jquery		(JS Lib)			=>Animation,Affects & Simple DOM manipulations
+Bootstrap		(Extension of CSS,JS)	=>Used to develop responsive web pages
+Ajax		(JavaScript Lib)		=>Used to send partail form data to server & fetch                                                                                          response from server
+AngularJs & Angular(JavaScript Lib)		=>Used to develop Single Page Applications
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Html		(Hypertextmarkup language)	:
+==========================
+Hyper Text	:	Used to prepare link which navigate from one web resource to another
+Markup		:	Marking/Enclosing data between tags
+Language		:	Used to develop Static Web Pages
+
+Software requirements
+======================
+	1.Editor	: to prepare code
+		Ex:Notepad,Notepad++,Sublime Text,EditPlus,...
+	2.IDE's	: Java Developer	:  Eclipse,My Eclipse,STS,Netbeans,..
+		  Python Develop	: Pycharm,Eclipse,...
+		  UI developer	: Visual Studio Code given MS
+				: DreamViewer
+Note:
+	To test/run Html,Css,Js,Jquery,Bootstrap,AngularJs programs we require any one of "web browser". 
+
+Fie Extension for html code:		
+========================
+	.html   or   .htm
+
+Tag Types:
+=========
+1.Paired tags	:	<html>   </html>,<head>  </head>,<title> </title>,..
+2.Unpaired tags	:	<br>,<hr>,<img><input>,...
+
+
+Structure of Html Program:
+=======================
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>  Title of web page   </title>
+       <script  src="abc.js">       </script>
+       <link href="abc.css" rel="stylesheet">
+       <meta http-eqiv="refresh"  content="10">
+    </head>
+    <body>
+       Design ur text,image,table,form,audio,video,...
+    </body>
+</html>
+	
+
+1.First Application with Notepad
+2.First Application with Sublime Text 3
+3.First Application with Visual Studio Code
+
+
+
+
+
+

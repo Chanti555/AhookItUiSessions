@@ -1,0 +1,44 @@
+Java Full Stack Developer:
+++++++++++++++++++++++
+1.Front End tech:
+		UI Technologies
+2.Back End tech:
+		Database with SQL or NoSQL
+		DB connectivity	:Jdbc/Hobernate
+		Server Side logic	:Servlets,Jsp/Spring Boot
+		Webservices	:Restful
+3.Tools:
+		Maven,Git,Junit,Postman,...
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Website:
+	http://ashokit.in/
+1.Static Web pages	
+2.Dynamic web pages
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+UI Technologies:
+==============
+Html		(Hypertextmarkup language)	=>Used to develop Static Web Pages
+Css		(Casceding Stylesheet)	=>Used to apply styles to Web Pages
+Js		(JavaScript)		=>Used to develop form validation at browser level
+Jquery		(JS Lib)			=>Animation,Affects & Simple DOM manipulations
+Bootstrap		(Extension of CSS,JS)	=>Used to develop responsive web pages
+Ajax		(JavaScript Lib)		=>Used to send partail form data to server & fetch                                                                                          response from server
+AngularJs & Angular(JavaScript Lib)		=>Used to develop Single Page Applications
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Html		(Hypertextmarkup language)	:
+==========================
+Hyper Text	:	Used to prepare link which navigate from one web resource to another
+Markup		:	Marking/Enclosing data between tags
+Language		:	Used to develop Static Web Pages
+
+
+
+
+
+
+
+
+
+
+
+
+

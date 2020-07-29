@@ -1,0 +1,67 @@
+
+Tag Types:
+=========
+1.Paired tags	:	<html>   </html>,<head>  </head>,<title> </title>,..
+2.Unpaired tags	:	<br>,<hr>,<img><input>,...
+
+
+Structure of Html Program:
+=======================
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>  Title of web page   </title>
+       <script  src="abc.js">       </script>
+       <link href="abc.css" rel="stylesheet">
+       <meta http-eqiv="refresh"  content="10">
+    </head>
+    <body>
+       Design ur text,image,table,form,audio,video,...
+    </body>
+</html>
+	
+
+1.First Application with Notepad
+2.First Application with Sublime Text 3
+3.First Application with Visual Studio Code
+
+Text Formatting Tags:
+==================
+1.Font related tags
+	<h1>  to <h6>	=> Heading Tags
+	<font>		=>Make font(size,color,face) for text
+	<i>,<em>		=>Italic
+	<b>,<strong>	=>Bold
+	<u>		=>Underline
+	<s>		=>Strike Line
+	<small>,<big>
+2.Others tags
+	<header>		=>Preparing Header Part Data
+	<footer>		=>Preparing Footer Part Data
+	<address>		=>Preparing Address
+	<sup>,<sub>	=>Super Script(X^2), Sub Script(H2O)
+	<pre>		=>Pre formatting Data
+	<p>
+	<br>,<hr>
+	<center>
+	<marquee>
+	..
+3.List tags
+	1.Ordered List
+	2.Unordered List
+	3.Definition List
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

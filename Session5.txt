@@ -1,0 +1,103 @@
+
+
+Working with Tables:
+=================
+1.<table>		:Used to design a table
+2.<thead>	:Used to design all headers
+3.<tbody>	:Used to design all table data
+4.<tr>		:Used to design a row
+5.<th>		:Used to design single heading
+6.<td>		:Used to design single cell of data
+7.<caption>	:Used to design caption for table
+
+1.<table> tag attributes
+	1.border
+	2.cellspacing	: space between adjacent cells in 4 directions
+	3.cellpadding	: space between cell data & borders
+	4.bgcolor		
+	5.align	
+
+Spanning: Dividing a cell into either row or column
+	1.rowspan
+	2.colspan
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Working with Form & it's items:
+===========================
+1.form:
+-----------
+	->It is a container to design rest of items
+	->Through form only we can send all items to a desired location(address->action)
+
+syntax:
+	<form   name=""   action=""  method="Get/Post">
+
+
+	</form>
+
+1.name	=>  Name of form
+2.action	=> Here we have to specify address(URL) that accepts our form data
+	Ex:
+		www.amazon.in/reg
+
+3.method=> Type of request i.e get/post
+
+
+get vs post:
+=========
+		Get			Post
+
+1.Get request data is visible in URL		1.Post request data is encrypted  in URL	
+
+2.Get request is very fast			2.Post request is very slow
+
+3.Get request is not secured			3.Post request is highly secured	
+
+4.Get request send limited data to server	4.Post request send unlimited data to server
+
+5.Get is default method			5.Post is not default method & it should be configured
+
+	<form>				<form	method="post">
+
+	</form>				</form>
+
+6.Reading data from server			6.Sending data to server
+		
+7.Get is best for searching data		7.Post is best for securing data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
