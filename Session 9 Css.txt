@@ -1,0 +1,160 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CSS:	(Casceding Style Sheet)
+===
+Html	=>Used to design static web pages (B &W)
+CSS	=>Used to apply styles to html pages like
+		1.Text colors
+		2.Background colors
+		3.Borders
+		4.Margins
+		5.Padding
+		6.Fonts
+		.....
+
+->Basic program which demostrates diff b/w html & css
+->Types of CSS:
+	We have totally 3 types of CSS
+	1.Inline CSS	(Embedded)
+	2.Internal CSS
+	3.External CSS
+
+1.Inline CSS:
+==========
+Here we declare styles within tag itself & applied to inner html.
+
+syntax:
+
+<element		style="property1:value;.......">
+	Inner Html
+</element>
+
+(+)Inline css can be used to delcare styles to single tag & that to only once
+
+(-)No style reusability
+
+2.Internal CSS:
+=============
+Here we declare all css styles within <style> tag inside <head> tag.
+These styles are applied to <body> elements.
+
+syntax:
+<html>
+<head>
+	<style>
+		element1
+		{
+			property1:value;
+			....
+		}
+		...
+	</style>
+</head>
+<body>
+	<element1>
+		Inner Html
+	</element1>
+	<element2>
+		Inner Html
+	</element2>
+</body>
+</html>
+
+
+(+)Have style reusability
+(-)Css code & Html code combined, It's diffucult to maintain & prepare.
+
+3.External CSS:
+============
+Here we declare all css styles in a separate file having .css extension.
+To use external css into html, we use <link> tag.
+<link> tag must be prepared inside <head> tag.
+
+syntax:
+
+	<link	href="ExternalCssFile.css"	rel="stylesheet">
+
+Href	=>	Hyper Text reference
+Rel	=>	Relation with that page
+___________________________________________________________________________________
+
+1.Border style:
+===========
+Every border has 3 sub properties
+
+	1.Border line size	:	1px/...	
+	2.Border line type	:	solid/double/...
+	3.Border line color	:	red/...
+syntax:
+	border	:	size	type	color
+
+2.Padding style:
+=============
+Padding is space between element(tag) inner html & borders in 4 directions(lrtb)
+syntax:
+	padding-left	:	px;
+	padding-right	:	px;
+	padding-top	:	px;
+	padding-bottom	:	px;
+	Or
+	//Common space in 4 directions
+	padding		:	px;
+3.Margin style:
+============
+Margin is space between adjacent elements(tag) in 4 directions(lrtb)
+syntax:
+	margin-left	:	px;
+	margin-right	:	px;
+	margin-top	:	px;
+	margin-bottom	:	px;
+	Or
+	//Common space in 4 directions
+	margin		:	px;
+___________________________________________________________________________________
+<div> & <span>  html tags:
+======================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________________________________________
+Selector Types:
+=============
+1.id selector	:
+	Suppose user want prepare styles for a specific  tag among duplicate tags,then we can id for that.
+	Through id selector we can declare styles
+syntax:
+	#idname
+	{
+		property:value;
+		....
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
