@@ -1,0 +1,159 @@
+Selector Types:(4 Types)
+===============
+1.tag selector  :
+	Here we can select a html tag & declare styles.
+	Here all declared styles are applied to selected tags.
+syntax:
+	tagname
+	{
+		property:value;
+		....
+	}
+2.id selector	:
+	Suppose user want prepare styles for a specific  tag among duplicate tags,
+	then we can id for that.
+	Through id selector we can declare styles
+syntax:
+	#idname
+	{
+		property:value;
+		....
+	}
+3.Class selector:
+	Suppose user want to prepare common styles to multiple tags, then we have to go class selector.
+	Through class selector we can declare styles
+syntax:
+	.classname
+	{
+		property:value;
+		....
+	}
+
+4.Universal selector:
+
+	This selector applying styles to all elements in document.
+	(*->all dom are selected)
+syntax:
+	*
+	{
+		property:value;
+		....
+	}
+______________________________________________________________________________
+1.What is CSS & How to use css?
+2.Types of CSS ?
+	3 types
+	1)	Inline CSS
+	2)	Internal CSS
+	3)	External CSS
+3.Common styles which we used in CSS?
+	color,background-color
+	font related
+	height,width
+	norder,margin,padding
+4.How to use div & span tags
+5.Types of selector ?
+	1.Tag selector
+	2.Id selector
+	3.Class Selector
+	4.Universal Selector
+______________________________________________________________________________
+Basics of DOM:
+=============
+DOM	->	Document	"Object"	Model
+
+->When we run html program on browser, entire source code loaded into browser
+line by line.
+
+->All html elements/tags are treated as inbuilt objects
+
+->"html" tag  class object is "document"
+
+->document has head as invisible in document & has body as visible in document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q1.What are JS based tech ?
+	->Jquery
+	->Bootstrap
+	->Ajax
+	->Angular Js
+	->TypeScript
+	->Angular/ReactJs
+	->Express JS
+	->NodeJS
+	->MongoDb  is a NoSQL DB
+	->Mongoose is a ODM Framework
+	->VueJs
+	....
+
+
+Note:
+	Oracle is a DB which uses to SQL perform CRUD
+	Hibernate is a ORM tool for Oracle/MySql..
+	MongoDb is a DB which uses to NoSQL perform CRUD
+	Mongoose is a ODM tool for Monhodb/Hbase...
+	
+Q2.What is prerequcites for JS tech ?
+	Html
+	Css
+	DOM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
