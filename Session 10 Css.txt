@@ -1,0 +1,79 @@
+<div> & <span>  html tags:
+==========================
+
+<div>:
+	This tag divide html body into horizontal blocks
+
+
+<span>:
+	This tag divide html body into verticle blocks with in line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________________________________________
+Selector Types:(4 Types)
+===============
+
+1.tag selector  :
+	Here we can select a html tag & declare styles.
+	Here all declared styles are applied to selected tags.
+syntax:
+	tagname
+	{
+		property:value;
+		....
+	}
+
+
+
+2.id selector	:
+	Suppose user want prepare styles for a specific  tag among duplicate tags,
+	then we can id for that.
+	Through id selector we can declare styles
+syntax:
+	#idname
+	{
+		property:value;
+		....
+	}
+
+3.Universal selector:
+
+	This selector applying styles to all elements in document.
+	(*->all dom are selected)
+
+
+syntax:
+	*
+	{
+		property:value;
+		....
+	}
+
+4.Class selctor:
+
+
+
+
+
+
+
+
+
+
+
