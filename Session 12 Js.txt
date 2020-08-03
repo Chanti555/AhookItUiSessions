@@ -1,0 +1,156 @@
+Basics of DOM:
+=============
+DOM	->	Document	"Object"	Model
+
+->When we run html program on browser, entire source code loaded into browser
+line by line.
+
+->All html elements/tags are treated as inbuilt objects(DOM)
+
+->"html" tag  class object is "document"
+
+->document has 2 parts
+	1.head ( invisible in document) 
+	2.body ( visible in document )
+
+1.innerHTML	=> All paired tags has "data" i.e treated as innerHTML
+2.value		=> All input tags has "data" i.e treated as value
+
+
+Every Object having 3 things
+
+	1.Identity	:	Name of object
+	2.State		:	Data of object
+	3.Behaviour	:	Method of object
+Ex:
+	<p	height="200"	width="200"	color="red"	onclick="fun1()"  onmouseenter="fun2()">
+		Hello
+	</p>
+
+DOM Identity		:	p
+DOM State/property	:	height,width,color
+DOM Behaviour/event	:	onclick,onmouseenter,...
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+HTML	=>	Used for DOM preparation
+CSS	=>	Used for Preparing good look & feel of DOM 
+JS	=>	used to perform DOM manipulations(Get/Set)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+JavaScript:
+===========
+JS is used to perform DOM manipulations(Get/Set)
+
+Script 	=>A script is a piece of code run on browser
+Java	=>Above script is written in java language
+
+Every browser has JS engines to run Script Code
+
+Google Chrome JS engine		=>	V8
+Mozilla firefix JS engine	=>	Spide Monkey
+Internet Explorer JS engine	=>	Chakra
+
+Note:
+_____
+1.Internal JS:To prepare JS code inside html, we used <script> tag.
+2.External JS:Here JS code is prepared out of html.
+
+JavaScript Basics:
+==================
+1.Input & output functions
+2.Datatypes
+3.Operators
+4.Control Statements
+5.Functions
+_______________________________________________________________________
+
+1.Input & output functions:
+___________________________
+output functions:
+	1.alert()		=>Preparing alert msgs which is focus on document
+	2.confirm()		=>Preparing  confirmation msgs
+	3.document.write()	=>Preparing data which is printed on foreground of document
+	4.console.log()		=>Preparing data which is printed on background of document
+input function:
+	1.prompt()
+
+
+Note:
+----
+1.Java is Statically Typed PL
+
+	int	x;
+	x=25;
+2.JavaScript is Dynamically Typed PL
+	var	x;
+	x=25;	Or	x=2.54;		Or	x="Hello"	Or	x=true
+2.Datatypes:
+____________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
