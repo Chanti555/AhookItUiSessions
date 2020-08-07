@@ -1,0 +1,245 @@
+Basics of DOM:
+=============
+DOM	->	Document	"Object"	Model
+
+->When we run html program on browser, entire source code loaded into browser
+line by line.
+
+->All html elements/tags are treated as inbuilt objects(DOM)
+
+->"html" tag  class object is "document"
+
+->document has 2 parts
+	1.head ( invisible in document) 
+	2.body ( visible in document )
+
+1.innerHTML	=> All paired tags has "data" i.e treated as innerHTML
+2.value		=> All input tags has "data" i.e treated as value
+
+
+Every Object having 3 things
+
+	1.Identity	:	Name of object
+	2.State		:	Data of object
+	3.Behaviour	:	Method of object
+Ex:
+	<p	height="200"	width="200"	color="red"	onclick="fun1()"  onmouseenter="fun2()">
+		Hello
+	</p/>
+
+DOM Identity		:	p
+DOM State/property	:	height,width,color
+DOM Behaviour/event	:	onclick,onmouseenter,...
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+HTML	=>	Used for DOM preparation
+CSS	=>	Used for Preparing good look & feel of DOM 
+JS	=>	Used to perform DOM manipulations(Get/Set)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+JavaScript:
+===========
+JS is used to perform DOM manipulations(Get/Set)
+
+Script 	=>A script is a piece of code run on browser
+Java	=>Above script is written in java language
+
+Every browser has JS engines to run Script Code
+
+Google Chrome JS engine		=>	V8
+Mozilla firefix JS engine	=>	Spide Monkey
+Internet Explorer JS engine	=>	Chakra
+
+Note:
+_____
+1.Internal JS:To prepare JS code inside html, we used <script> tag.
+2.External JS:Here JS code is prepared out of html.
+
+JavaScript Basics:
+==================
+1.Input & output functions
+2.Datatypes
+3.Operators
+4.Control Statements
+5.Functions/Methods in Java
+_______________________________________________________________________
+
+1.Input & output functions:
+___________________________
+output functions:
+	1.alert()		=>Preparing alert msgs which is focus on document
+	2.confirm()		=>Preparing  confirmation msgs
+	3.document.write()	=>Preparing data which is printed on foreground of document
+	4.console.log()		=>Preparing data which is printed on background of document
+input function:
+	1.prompt()		=>Used to accept the data from browser window
+
+
+Note:
+----
+1.Java is Statically Typed PL
+
+	int	x;
+	x=25;
+
+2.JavaScript is Dynamically Typed PL
+
+	var	x;
+	x=25;	Or	x=2.54;		Or	x="Hello"	Or	x=true
+
+2.Datatypes:
+____________
+1.Basic Datatypes	:These datatypes can store single value
+	Ex:
+		1.number	(9,9.8)
+		2.boolean	(true/false)
+		3.string	("Apple"/'Apple'/`Apple`)
+
+2.Collection Datatypes	:These datatypes can store multiple values
+	Ex:
+		1.array		=>	[values]
+		2.object	=>	{key:value,key:value,..}
+Note:
+====
+1.null,undefined are literals in Java Script.
+	var	x;
+	alert(x);		//undefined
+	var	x=null;
+	alert(x);		//null
+2.All Basic Datatypes & Collection Datatypes are declared by using either var or let 
+keyword.
+Ex:
+	var	a=15		//Here a is number type
+	var	b=3.6		//Here b is number type
+	var	c='AshokIt'	//Here c is string type
+	var	d=true		//Here d is boolean type
+	var	e		//Here e is undefinded
+	var	f=null		//Here f is null 
+	
+	var	hobbies=['Singing','Swimming','Playing Cricket']
+	//Single object representation		=	JSON
+	var	person={
+			'age'	:25,
+			'name'	:'Aadhya',
+			'height':5.8
+			};
+	//Array of object representation	=	JSON
+	var	persons=[
+				{
+					'age'	:25,
+					'name'	:'Aadhya',
+					'height':5.8
+				},
+				{
+					'age'	:26,
+					'name'	:'Varun',
+					'height':5.9
+				},
+			]
+
+3.Operators:
+	1.Unary oporators
+		1.Increment & Decrement	(++,--)
+		2.Minus			(-)
+	2.Binary operators
+		1.Assignment 		(=)
+		2.Arithmetic		(+,-,*,/,%)
+		3.Relational		(<,>,<=,>=,!=,==,===)
+		4.Logical		(&&,||,!)
+		5.Bitwise		(&,|,^,<<,>>,~)
+	3.Ternary operators
+		1.Conditional		(?:)
+4.Control Statements:
+	1.Decision Making Statements
+		1.If
+		2.If-Ladder
+		3.If-Else
+		4.If-Else-Ladder
+		5.Nested If-Else
+		6.Switch
+	2.Loop Statements
+		1.while
+		2.do-while
+		3.for
+	3.Jump Statements
+		1.break
+		2.continue
+
+Non-Functional Program Drawbacks:
+=================================
+        /*
+            1.Duplication of code
+            2.More space & time complexicity
+            3.Less readability
+            4.Extensibility is difficult
+            5.No Modularity(dividing a main program into sub program)
+        */
+Functional Program Advantages:
+=============================
+        /*
+            1.No Duplication of code
+            2.Less space & time complexicity
+            3.More readability
+            4.Extensibility is easy
+            5.Modularity(dividing a main program into sub program)
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
