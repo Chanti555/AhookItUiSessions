@@ -1,0 +1,90 @@
+
+5:22 PM 8/19/2020 topic:
+========================
+
+1.Function Preparation ways:
+============================
+A function can be prepared in 4 ways based on following 2 factors
+
+	1.parameter list
+	2.return value
+	
+1) with parameter list & with return value
+2) with out parameter list & with return value
+3) with parameter list & with out return value
+4) with out parameter list & with out return value
+
+
+2.Types of Javascripts:
+=======================
+1.Internal Javascript	=>(Html Code + JS Code)
+2.External Javascript	=>Preparing JS code in a separate page(.js) & accessed from html page
+	syntax:
+		 <script src="filename.js">    </script>
+Note:
+=====
+1.In above example,"myjs1.js" file having 4 function definitions(User defined JS Library)
+2.jQuery,Bootstrap & AngularJs all are JS libraries
+
+
+
+Q1.How many ways we can prepare a function in JS according to ECMAScript standards ?
+Ans:
+	1.Function Declaration
+	2.Function Expression/Anonymous Functions
+	3.Arrow functions
+	4.IIFE
+	5.Callback functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
